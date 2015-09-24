@@ -1,6 +1,6 @@
 {
   "name": "language-jsonnet",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Syntax highlighting for Jsonnet",
   "repository": "https://github.com/google/language-jsonnet",
   "engines": {
@@ -8,4 +8,3 @@
     "node": "*"
   }
 }
-
