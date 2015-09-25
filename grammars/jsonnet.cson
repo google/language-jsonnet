@@ -75,6 +75,12 @@
   },
 
   {
+    'name': 'string.unquoted.block.jsonnet'
+    'begin': '\\|\\|\\|'
+    'end': '\\|\\|\\|'
+  },
+
+  {
     'name': 'comment.block.jsonnet'
     'begin': '/\\*'
     'end': '\\*/'
