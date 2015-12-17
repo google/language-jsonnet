@@ -2,7 +2,7 @@
 
 This package adds syntax highlighting for [Jsonnet][jsonnet].
 
-[jsonnet]: http://google.github.io/jsonnet/doc/
+[jsonnet]: http://jsonnet.org
 
 ![A screenshot of Jsonnet syntax highlighting](https://raw.githubusercontent.com/google/language-jsonnet/master/jsonnet-screenshot.png)
 
@@ -15,5 +15,5 @@ apm install language-jsonnet
 ## More Info
 
 For more info on Jsonnet:
-* Jsonnet Website: http://google.github.io/jsonnet/doc
+* Jsonnet Website: http://jsonnet.org
 * Jsonnet Repository: https://github.com/google/jsonnet
