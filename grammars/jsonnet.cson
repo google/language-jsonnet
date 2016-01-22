@@ -65,11 +65,27 @@
     'patterns': [
       {
         'name': 'constant.character.escape.jsonnet'
-        'match': '\\\\(["\\\\/bfnrt]|(u[0-9a-fA-F]{4}))'
+        'match': '\\\\(['"\\\\/bfnrt]|(u[0-9a-fA-F]{4}))'
       },
       {
         'name': 'invalid.illegal.jsonnet'
-        'match': '\\\\[^"\\\\/bfnrtu]'
+        'match': '\\\\[^\'"\\\\/bfnrtu]'
+      },
+    ]
+  },
+
+  {
+    'name': 'string.single.jsonnet'
+    'begin': '\''
+    'end': '\''
+    'patterns': [
+      {
+        'name': 'constant.character.escape.jsonnet'
+        'match': '\\\\([\'"\\\\/bfnrt]|(u[0-9a-fA-F]{4}))'
+      },
+      {
+        'name': 'invalid.illegal.jsonnet'
+        'match': '\\\\[^\'"\\\\/bfnrtu]'
       },
     ]
   },
