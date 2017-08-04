@@ -29,11 +29,6 @@
   },
   {
     'name': 'support.function.jsonnet'
-    'match': '\\bstd[.](acos|asin|atan|ceil|char|codepoint|cos|exp|exponent)\\b'
-  },
-
-  {
-    'name': 'support.function.jsonnet'
     'match': '\\bstd[.](abs|assertEqual|escapeString(Bash|Dollars|Json|Python))\\b'
   },
   {
