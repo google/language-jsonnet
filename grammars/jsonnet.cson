@@ -47,7 +47,14 @@
     'name': 'support.function.jsonnet'
     'match': '\\bstd[.](range|split|stringChars|substr|toString|uniq)\\b'
   },
-
+  {
+    'name': 'support.function.jsonnet'
+    'match': '\\bstd[.](base64|base64Decode|base64DecodeBytes|count|endsWith|extVar|md5|mergePatch)\\b'
+  },
+  {
+    'name': 'support.function.jsonnet'
+    'match': '\\bstd[.](objectFieldsAll|objectHasAll|parseInt|prune|splitLimit|startsWith)\\b'
+  },
   {
     'name': 'variable.language.jsonnet'
     'match': '\\b[$]\\b'
