@@ -1,6 +1,6 @@
 'scopeName': 'source.jsonnet'
 'name': 'Jsonnet'
-'fileTypes': ['jsonnet', 'libsonnet']
+'fileTypes': ['jsonnet', 'libsonnet', 'libjsonnet']
 'patterns': [
   {
     'name': 'constant.numeric.jsonnet'
