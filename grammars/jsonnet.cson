@@ -142,19 +142,15 @@
   },
 
   {
-    'contentName': 'string.block.jsonnet'
-    'begin': '^(\\s*)(.*)(\\|\\|\\|)'
-    'beginCaptures': {
-      '3': {
-        'name': 'string.block.jsonnet'
-      },
-    },
-    'end': '^(?!$)(\\1)(\\|\\|\\|)'
-    'endCaptures': {
-      '2': {
-        'name': 'string.block.jsonnet'
-      },
-    },
+    "begin": "(?:\\|\\|\\|)(?:\\s*$)"
+    "end": "\\|\\|\\|"
+     "patterns": [
+        {
+          "begin": "^([ \t]+)(?! |\t|\\|(?=\\|))",
+          "end": "^(?!\\1|\\s*$)",
+          "name": "string.block.jsonnet"
+        }
+    ]
   },
 
   {
